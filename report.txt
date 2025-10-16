@@ -1,0 +1,126 @@
+homework #1 - Lu Li
+
+2.1 G
+
+14
+
+>NC_134455.1 Lycorma delicatula isolate Av1 chromosome 1, ASM4794821v1, whole genome shotgun sequence
+>NC_134456.1 Lycorma delicatula isolate Av1 chromosome 2, ASM4794821v1, whole genome shotgun sequence
+>NC_134457.1 Lycorma delicatula isolate Av1 chromosome 3, ASM4794821v1, whole genome shotgun sequence
+>NC_134458.1 Lycorma delicatula isolate Av1 chromosome 4, ASM4794821v1, whole genome shotgun sequence
+>NC_134459.1 Lycorma delicatula isolate Av1 chromosome 5, ASM4794821v1, whole genome shotgun sequence
+>NC_134460.1 Lycorma delicatula isolate Av1 chromosome 6, ASM4794821v1, whole genome shotgun sequence
+>NC_134461.1 Lycorma delicatula isolate Av1 chromosome 7, ASM4794821v1, whole genome shotgun sequence
+>NC_134462.1 Lycorma delicatula isolate Av1 chromosome 8, ASM4794821v1, whole genome shotgun sequence
+>NC_134463.1 Lycorma delicatula isolate Av1 chromosome 9, ASM4794821v1, whole genome shotgun sequence
+>NC_134464.1 Lycorma delicatula isolate Av1 chromosome 10, ASM4794821v1, whole genome shotgun sequence
+>NC_134465.1 Lycorma delicatula isolate Av1 chromosome 11, ASM4794821v1, whole genome shotgun sequence
+>NC_134466.1 Lycorma delicatula isolate Av1 chromosome 12, ASM4794821v1, whole genome shotgun sequence
+>NC_134467.1 Lycorma delicatula isolate Av1 chromosome 13, ASM4794821v1, whole genome shotgun sequence
+>NC_012835.1 Lycorma delicatula mitochondrion, complete genome
+
+
+2228579799 dna.txt
+
+Letter Counts (A, C, T, G combined uppercase + lowercase)
+A 762446686
+C 338294265
+T 762085038
+G 338221772
+
+Other
+N 18700
+
+Commands Used
+    1  cd /home/shared/
+    2  ls -lth
+    3  cd /home/shared/lu
+    4  cd /home
+    5  cd ~/
+    6  cd /home/shared/lu/
+    7  mkdir homework_1
+    8  ls -lth
+    9  cd homework_1
+   10  mkdir report.txt
+   11  echo Homework #1 - Lu Li > report.txt
+   12  echo "Homework #1 – Lu Li" > report.txt
+   13  rm -r*
+   14  rm -r
+   15  cat 
+   16  cd /home/shared/FA25_coding/intro_files/SLF_genome.fasta
+   17  cd /home/shared/FA25_coding/intro_files/
+   18  ls -lth
+   19  cd /home/shared/lu/homework_1
+   20  ls -lth
+   21  ls
+   22  echo report.txt
+   23  grep -c "^>" /home/shared/FA25_coding/intro_files/SLF_genome.fasta >> report.txt
+   24  rmdir report.txt
+   25  grep -c "^>" /home/shared/FA25_coding/intro_files/SLF_genome.fasta >> report.txt
+   26  cat report.txt
+   27  cd /home/shared/FA25_coding/intro_files
+   28  ls -lth
+   29  cd
+   30  cd ../shared/lu
+   31  ls -lth
+   32  touch report.txt
+   33  echo "homework #1 - Lu Li" >> report.txt
+   34  less -S
+   35  less -S report.txt 
+   36  grep "^>" /home/shared/FA25_coding/intro_files/SLF_genome.fasta | head -n 5
+   37  grep -c "^>" /home/shared/FA25_coding/intro_files/SLF_genome.fasta >> report.txt
+   38  less -S report.txt 
+   39  less -S report.txt 
+   40  echo "2.1 G" >> report.txt
+   41  less -S report.txt 
+   42  less -S report.txt 
+   43  nano report.txt
+   44  grep "^>" /home/shared/FA25_coding/intro_files/SLF_genome.fasta > chromosome_names.txt
+   45  cat chromosome_names.txt >> report.txt
+   46  less -S report.txt 
+   47  grep -v "^>" /home/shared/FA25_coding/intro_files/SLF_genome.fasta > dna.txt
+   48  wc -m dna.txt >> report.txt
+   49  nano report.txt
+   50  less -S report.txt 
+   51  less -S report.txt 
+   52  less -S report.txt 
+   53  less -S dna.txt
+   54  ls -lth
+   55  less -S report.txt 
+   56  mv -i report.txt dna.txt chromosome_names.txt homework_1/
+   57  ls -lth
+   58  cd /home/shared/lu/homework_1/
+   59  ls -lth
+   60  less -S report.txt 
+   61  {   echo "Letter Counts";   echo "A $(( $(grep -o '[Aa]' ~/homework_1/dna.txt | wc -l) ))";   echo "C $(( $(grep -o '[Cc]' ~/homework_1/dna.txt | wc -l) ))";   echo "T $(( $(grep -o '[Tt]' ~/homework_1/dna.txt | wc -l) ))";   echo "G $(( $(grep -o '[Gg]' ~/homework_1/dna.txt | wc -l) ))";   echo "N $(( $(grep -o '[Nn]' ~/homework_1/dna.txt | wc -l) ))";   echo ""; } >> ~/report.txt
+   62  {   echo "Letter Counts";   echo "A $(( $(grep -o '[Aa]' ~/homework_1/dna.txt | wc -l) ))";   echo "C $(( $(grep -o '[Cc]' ~/homework_1/dna.txt | wc -l) ))";   echo "T $(( $(grep -o '[Tt]' ~/homework_1/dna.txt | wc -l) ))";   echo "G $(( $(grep -o '[Gg]' ~/homework_1/dna.txt | wc -l) ))";   echo "N $(( $(grep -o '[Nn]' ~/homework_1/dna.txt | wc -l) ))";   echo ""; } >> /home/shared/lu/report.txt
+   63  {   echo "Letter Counts";   echo "A $(( $(grep -o '[Aa]' /home/shared/lu/homework_1/dna.txt | wc -l) ))";   echo "C $(( $(grep -o '[Cc]' /home/shared/lu/homework_1/dna.txt | wc -l) ))";   echo "T $(( $(grep -o '[Tt]' /home/shared/lu/homework_1/dna.txt | wc -l) ))";   echo "G $(( $(grep -o '[Gg]' /home/shared/lu/homework_1/dna.txt | wc -l) ))";   echo "N $(( $(grep -o '[Nn]' /home/shared/lu/homework_1/dna.txt | wc -l) ))";   echo ""; } >> /home/shared/lu/report.txt
+   64  less -S report.txt 
+   65  echo "Letter Counts (A, C, T, G combined uppercase + lowercase)" >> report.txt
+   66  echo "A $(grep -oi "a" dna.txt | wc -l)" >> report.txt
+   67  echo "C $(grep -oi "c" dna.txt | wc -l)" >> report.txt
+   68  echo "T $(grep -oi "t" dna.txt | wc -l)" >> report.txt
+   69  echo "G $(grep -oi "g" dna.txt | wc -l)" >> report.txt
+   70  echo "" >> report.txt
+   71  echo "Other" >> report.txt
+   72  echo "N $(grep -o "N" dna.txt | wc -l)" >> report.txt
+   73  echo "" >> report.txt
+   74  less -S report.txt 
+   75  nano report.txt 
+   76  less -S report.txt 
+   77  less -S report.txt 
+   78  echo "Commands Used" > commands_used.txt
+   79  cat $0 >> commands_used.txt 
+   80  cat commands_used.txt >> report.txt
+   81  less -S report.txt 
+   82  nano report.txt 
+   83  sed '/^\^/d' report.txt | less -S
+   84  sed -i '/^Commands Used$/,$d' report.txt
+   85  less -S report.txt 
+   86  echo "Commands Used" > commands_used.txt
+   87  history | tail -n 200
+total 2.1G
+-rw-r--r-- 1 jovyan users 1.4K Sep 25 15:12 chromosome_names.txt
+-rw-r--r-- 1 jovyan users 4.2K Sep 26 05:15 commands_used.txt
+-rw-r--r-- 1 jovyan users 2.1G Sep 25 15:14 dna.txt
+-rw-r--r-- 1 jovyan users 5.7K Sep 26 05:17 report.txt
