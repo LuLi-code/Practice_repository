@@ -1,0 +1,13 @@
+Elie
+on friends number 1
+Hasita
+on friends number 2
+Juhi
+on friends number 3
+Jon
+on friends number 4
+Lu
+on friends number 5
+Caroline
+on friends number 6
+Total Number of Friends: 6
