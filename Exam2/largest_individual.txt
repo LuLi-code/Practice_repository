@@ -1,0 +1,5 @@
+Longest male (mm): 28
+Collected at site: B15
+Longest female (mm): 29
+Collected at site: E1
+Same site? NO
